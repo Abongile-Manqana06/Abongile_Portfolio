@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Abongile | Software Developer</title>
+  <meta name="description" content="Portfolio of Abongile, a software developer from South Africa. Web, mobile, desktop and API projects, from the database up to the screen.">
+  <meta name="theme-color" content="#0c1a2e">
+  <meta property="og:title" content="Abongile | Software Developer">
+  <meta property="og:description" content="Web, mobile, desktop and API projects, from the database up to the screen.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="#top" aria-label="Abongile, back to top"><span class="brand-mark" aria-hidden="true"></span>Abongile</a>
+      <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="nav" aria-label="Open menu"><span></span></button>
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#how">How I work</a>
+        <a href="#skills">Skills</a>
+        <a href="#drew">Drew Technologies</a>
+        <a href="cv.html">CV</a>
+        <a class="nav-cta" href="#contact">Get in touch</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <div class="wrap hero-grid" id="top">
+        <div>
+          <p class="hello">Hi, I am Abongile, a software developer</p>
+          <h1 id="hero-title">I build software
+            <span class="l2">from the database to the screen.</span></h1>
+          <p class="lede">I design and build web, mobile and desktop apps, and the APIs and databases behind them. Below are twelve projects I have planned, built or designed.</p>
+          <div class="btn-row">
+            <a class="btn btn--primary" href="#work">See my projects</a>
+            <a class="btn btn--ghost" href="#contact">Contact me</a>
+          </div>
+          <ul class="legend" aria-label="What the picture shows">
+            <li>Interface</li><li>API</li><li>Database</li>
+          </ul>
+        </div>
+
+        <div class="stage" aria-hidden="true">
+          <div class="rig" id="rig">
+            <div class="slab slab--db">
+              <div class="fake-code"><b>TABLE</b> events<br><b>TABLE</b> entries<br><b>TABLE</b> results</div>
+              <div class="fake-row w80"></div><div class="fake-row w60"></div>
+            </div>
+            <div class="slab slab--api">
+              <div class="fake-code"><b>GET</b>&nbsp; /events &nbsp;200<br><b>POST</b> /entries 201<br><b>GET</b>&nbsp; /results 200</div>
+            </div>
+            <div class="slab slab--ui">
+              <div class="fake-row w40"></div>
+              <div class="fake-tiles"><i></i><i></i><i></i></div>
+              <span class="fake-btn"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="brands" aria-label="My brands">
+      <div class="wrap brands-row">
+        <p class="brands-label">My brands</p>
+        <div class="brand-item">
+          <span class="brand-badge brand-badge--ct" aria-hidden="true">CT</span>
+          <div><strong>Cyber Times With Abo</strong><span>Cybersecurity and coding, explained in plain English</span></div>
+        </div>
+        <a class="brand-item brand-item--link" href="#drew">
+          <span class="brand-badge" aria-hidden="true"><img src="assets/img/drew-logo.png" alt=""></span>
+          <div><strong>Drew Technologies</strong><span>Your Vision. Our Creation.</span></div>
+        </a>
+      </div>
+    </section>
+
+    <section class="section section--light" id="work" aria-labelledby="work-title">
+      <div class="wrap">
+        <div class="work-head">
+          <div>
+            <h2 class="h2" id="work-title">Selected work</h2>
+            <p class="lede" style="margin:0">Pick a project to see what it does, how I built it and what I learned.</p>
+          </div>
+          <div class="filters" id="filters" role="group" aria-label="Filter projects"></div>
+        </div>
+        <p class="count" id="count" aria-live="polite"></p>
+        <div class="grid" id="grid"></div>
+      </div>
+    </section>
+
+    <section class="section section--navy" id="about" aria-labelledby="about-title">
+      <div class="wrap about-grid">
+        <div class="portrait">
+          <div class="portrait-frame">
+            <img id="portraitImg" src="assets/img/profile.jpg" alt="Portrait of Abongile" width="800" height="1000" loading="lazy">
+            <div class="portrait-fallback" id="portraitFallback" hidden aria-hidden="true">A</div>
+          </div>
+        </div>
+        <div>
+          <h2 class="h2" id="about-title">About me</h2>
+          <p class="lede">I am a second-year Software Development student at Rosebank International. I like turning a messy real-world problem into something that works and looks good.</p>
+          <p>I have an 81.8% average across 12 modules, with distinctions in 11 of them. I write C#, Java and SQL, and I have built desktop apps, a REST API and database projects. I also tutor other students in programming. What I learn in class goes straight into my own projects, from a ride-hailing platform to a chatbot that teaches cybersecurity.</p>
+          <p>I am also building a brand called Cyber Times With Abo, where I want to share cybersecurity and coding knowledge in plain English, so that more people can learn it.</p>
+          <div class="facts">
+            <div class="fact"><strong>Based in</strong><span>Gqeberha, Eastern Cape</span></div>
+            <div class="fact"><strong>Focus</strong><span>Full-stack web, mobile and desktop</span></div>
+            <div class="fact"><strong>Studying</strong><span>Diploma in IT: Software Development</span></div>
+            <div class="fact"><strong>Open to</strong><span>Internships, vacation work and bursaries</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="how" aria-labelledby="how-title">
+      <div class="wrap">
+        <h2 class="h2" id="how-title">How I work</h2>
+        <p class="lede">The habits behind every project on this page.</p>
+        <div class="work-grid">
+          <div class="way"><h3>I plan before I code</h3><p>I draw the data model and list the endpoints first. RaceDay started with an ERD and an API plan before any C# was written.</p></div>
+          <div class="way"><h3>I test as I go</h3><p>My projects use unit tests and GitHub Actions, so a mistake shows up on the next push and not on the day I hand it in.</p></div>
+          <div class="way"><h3>I keep things simple</h3><p>I write code in small parts with one job each, and I explain my work in plain English. If I cannot explain it simply, I do not understand it yet.</p></div>
+          <div class="way"><h3>I take feedback seriously</h3><p>When my lecturer reviewed our project plan, we rebuilt it point by point. A plan only gets better when someone challenges it.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--light" id="skills" aria-labelledby="skills-title">
+      <div class="wrap">
+        <h2 class="h2" id="skills-title">Skills and learning</h2>
+        <p class="lede">What I use, and what I am studying.</p>
+        <div class="skills-grid">
+          <div><h3>Languages</h3><ul><li>C#</li><li>Java</li><li>SQL</li><li>JavaScript</li><li>HTML and CSS</li></ul></div>
+          <div><h3>Back end and data</h3><ul><li>ASP.NET Core</li><li>Entity Framework Core</li><li>REST APIs and Swagger</li><li>SQL Server and SQLite</li><li>Firebase</li></ul></div>
+          <div><h3>Apps and interfaces</h3><ul><li>WPF</li><li>ASP.NET MVC</li><li>Flutter</li><li>Responsive web design</li><li>Figma</li></ul></div>
+          <div><h3>Tools and practice</h3><ul><li>Git and GitHub</li><li>GitHub Actions (CI)</li><li>Docker</li><li>Azure Blob Storage</li><li>Cloudflare</li><li>JUnit, UML and ERD</li></ul></div>
+        </div>
+        <p class="edu-line"><strong>Diploma in Information Technology: Software Development</strong> (NQF 6), Rosebank International (The IIE), 2025 to 2027. 81.8% overall average, with distinctions in 11 of 12 modules.</p>
+        <ul class="modules" aria-label="Modules I study">
+          <li>Programming 1A <span>Java</span></li>
+          <li>Programming 1B <span>Programming</span></li>
+          <li>Programming 2A <span>C# and WPF</span></li>
+          <li>Programming Logic and Design <span>Logic and pseudocode</span></li>
+          <li>Database (Introduction) <span>SQL and database design</span></li>
+          <li>Information Security <span>Principles and practice</span></li>
+          <li>System Analysis and Design <span>UML and ERD</span></li>
+          <li>Web Development (Introduction) <span>HTML and CSS</span></li>
+          <li>Operating Systems 1A <span>Systems</span></li>
+          <li>IT Professional Practice <span>Workplace skills</span></li>
+          <li>Business Information Systems <span>Business and IT</span></li>
+          <li>Quantitative Thinking and Techniques <span>Maths for IT</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section--navy" id="drew" aria-labelledby="drew-title">
+      <div class="wrap">
+        <div class="drew-head">
+          <div class="drew-logo" aria-hidden="true">
+            <!-- Save the company logo as assets/img/drew-logo.png (see README). Until then the D1 mark shows. -->
+            <img src="assets/img/drew-logo.png" alt="" onerror="this.hidden=true;this.nextElementSibling.hidden=false">
+            <span class="drew-logo-fallback" hidden>D1</span>
+          </div>
+          <div>
+            <h2 class="h2" id="drew-title">Drew Technologies</h2>
+            <p class="lede" style="margin:0">Your Vision. Our Creation.</p>
+          </div>
+        </div>
+
+        <div class="drew-intro">
+          <p>Drew Technologies is a South African technology and digital solutions business. It helps businesses, entrepreneurs, startups and individuals build and strengthen their presence in the digital world.</p>
+          <p>We believe every business deserves modern, professional and reliable technology. We turn ideas into practical digital experiences through creative design, software development and innovative technology.</p>
+        </div>
+
+        <div class="founder">
+          <figure class="founder-photo">
+            <img src="assets/img/founder.jpg" alt="Abongile Lathitha Manqana, founder of Drew Technologies" width="724" height="905" loading="lazy">
+          </figure>
+          <div>
+            <h3 class="sub">Founder</h3>
+            <p class="founder-name">Abongile Lathitha Manqana</p>
+            <p>Drew Technologies was founded by Abongile Lathitha Manqana, with a vision of using technology, creativity and software development to help businesses grow and bring their ideas to life.</p>
+            <p>The business is driven by an interest in software development, digital innovation and the opportunities technology creates. Through Drew Technologies, the aim is to build a growing technology brand that provides practical digital solutions while continuously exploring new technologies.</p>
+          </div>
+        </div>
+
+        <div class="mv">
+          <div class="mv-card"><h3 class="sub">Our mission</h3><p>To provide creative, professional and reliable digital solutions that help businesses and individuals bring their ideas to life, improve their online presence and make better use of technology.</p></div>
+          <div class="mv-card"><h3 class="sub">Our vision</h3><p>To grow Drew Technologies into a trusted technology brand recognised for creativity, quality, innovation and reliable digital solutions, and to make modern technology more accessible in South Africa and beyond.</p></div>
+        </div>
+
+        <h3 class="sub sub--gap">Services</h3>
+        <ul class="svc">
+          <li><strong>Website design and development</strong><span>Business, company, portfolio and personal websites that are responsive, with contact forms, WhatsApp and Google Maps integration and basic SEO.</span></li>
+          <li><strong>E-commerce websites</strong><span>Online stores with product catalogues, search, shopping carts, customer accounts, online payments and order management.</span></li>
+          <li><strong>Website redesign</strong><span>A more modern, professional and user-friendly look, structure and experience for an existing website.</span></li>
+          <li><strong>Portfolio and personal websites</strong><span>Websites for freelancers, professionals and creatives who want to show their work, skills and services.</span></li>
+          <li><strong>Custom digital solutions</strong><span>Solutions built around a specific business requirement, considered by purpose, functionality and technical needs.</span></li>
+        </ul>
+
+        <h3 class="sub sub--gap">Core values</h3>
+        <ul class="vals">
+          <li><strong>Innovation</strong><span>Exploring new ideas and technologies to build better solutions.</span></li>
+          <li><strong>Creativity</strong><span>Good technology is supported by thoughtful design.</span></li>
+          <li><strong>Quality</strong><span>Professional work with attention to detail and the client&rsquo;s requirements.</span></li>
+          <li><strong>Customer focus</strong><span>Understanding the client&rsquo;s vision before building anything.</span></li>
+          <li><strong>Continuous learning</strong><span>Technology changes, so we keep improving our skills.</span></li>
+          <li><strong>Reliability</strong><span>Clear communication and responsible project handling.</span></li>
+        </ul>
+
+        <h3 class="sub sub--gap">In development</h3>
+        <div class="mv">
+          <div class="mv-card"><h4>Mobile app development</h4><p>We are working towards building mobile apps for businesses and individuals, including apps that can reach users through the Google Play Store.</p></div>
+          <div class="mv-card"><h4>AI agents and business automation</h4><p>We are exploring AI agents that can help with calls, messages, customer enquiries, email and everyday workflows. They will be offered once they are ready for clients.</p></div>
+        </div>
+
+        <h3 class="sub sub--gap">How a project runs</h3>
+        <ol class="steps">
+          <li><strong>Understand the needs</strong><span>We talk about your idea, your business and the problem to solve.</span></li>
+          <li><strong>Plan the solution</strong><span>We agree the features, structure and design direction.</span></li>
+          <li><strong>Design and build</strong><span>We create the solution to the agreed requirements.</span></li>
+          <li><strong>Test and improve</strong><span>We review it, test it and make the agreed improvements.</span></li>
+          <li><strong>Deliver and support</strong><span>We hand over the finished project and support it as agreed.</span></li>
+        </ol>
+
+        <div class="drew-contact">
+          <div>
+            <h3 class="sub">Work with Drew Technologies</h3>
+            <p>Let&rsquo;s build something meaningful together.</p>
+          </div>
+          <div class="contact-links">
+            <a href="https://drewtechnologies.co.za" target="_blank" rel="noopener">drewtechnologies.co.za</a>
+            <a href="mailto:drewtechnologies26@gmail.com">drewtechnologies26@gmail.com</a>
+            <a href="tel:+27686917586">068 691 7586</a>
+            <a href="tel:+27837719808">083 771 9808</a>
+            <a href="https://www.instagram.com/drew_technologies/" target="_blank" rel="noopener">Instagram: @drew_technologies</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="wrap contact-grid">
+        <div>
+          <h2 class="h2" id="contact-title">Let us build something</h2>
+          <p class="lede">I am looking for opportunities to learn and contribute. Send me a message about a role, a project or a question.</p>
+          <div class="contact-links" id="contactLinks">
+            <a href="#" data-site-email></a>
+          </div>
+          <div class="btn-row" style="margin-top:22px"><a class="btn btn--primary" href="assets/cv/Abongile_Manqana_CV.pdf" download>Download my CV (PDF)</a><a class="btn btn--ghost" href="cv.html">View CV page</a></div>
+        </div>
+        <form class="form" id="contactForm">
+          <label>Your name<input name="name" type="text" autocomplete="name" required></label>
+          <label>Your email<input name="email" type="email" autocomplete="email" required></label>
+          <label>Message<textarea name="message" required></textarea></label>
+          <button class="btn btn--primary" type="submit">Send message</button>
+          <p class="form-note">This opens your email app with the message ready to send.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap foot">
+      <span>&copy; <span id="year">2026</span> Abongile. Built by hand with HTML, CSS and JavaScript.</span>
+      <span id="footLinks"></span>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="js/site-config.js"></script>
+  <script src="js/projects-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
